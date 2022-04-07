@@ -13,3 +13,7 @@ Run `npm install` to rebuild the project packages.
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## URL Project deployed
+
+[CarritoPruebas](https://carrito-pruebas1.netlify.app/)
