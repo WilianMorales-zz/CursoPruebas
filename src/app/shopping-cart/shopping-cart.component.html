@@ -1,0 +1,10 @@
+<p class="title">Mi Carrito</p>
+
+<app-shopping-cart-item *ngFor="let item of cartItems; trackBy: trackByItemId" [cartItem]="item" (cartItemDelete)="deleteItem(item)">
+</app-shopping-cart-item>
+
+<p class="total"><span class="total-label">total:</span> {{ total }} €</p>
+
+<button class="btn" (click)="addNewElement()">Añadir Nuevo</button>
+<button class="btn2" (click)="reverseList()">Invertir</button>
+<button (click)="reloadFromServer()">Recargar</button>
